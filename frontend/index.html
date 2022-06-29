@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./sample_json.json"></script>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <div class="flex-container">
+                    <div class="flex-child">
+                        <img src="./graph.png">
+                    </div>
+
+                    <div class="flex-child">
+                        <div>Used Size:</div>
+                        <div id="used"></div><br>
+                        <div>Free Size:</div>
+                        <div id="free"></div>
+                        <br><br>
+                        <div>For 1PB price will be 1 SNS Token</div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <button class="button">Logs</button><br>
+                <div id="price" style="text-align:center"></div><br>
+                <!-- <meta http-equiv = "refresh" content = "2"; url = https://www.tutorialspoint.com" /> -->
+                <button class="button" onclick="calculatePayment()">Cal.Payment</button><br>
+                <button class="button" ><a href="http://localhost:8000/create.txt">Logs test</a></button><br>
+                <div id="free" style="text-align:center"></div><br>
+                <button class="button">Pay</button>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
